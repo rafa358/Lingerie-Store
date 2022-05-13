@@ -4,37 +4,43 @@
 }
 body{
     position: relative;
-    background-color: rgb(156, 156, 192);
+    background-color: whitesmoke;
     width: auto;
     height: auto;
 }
+
+li{
+    list-style-type: none;
+}
 header{
     overflow: hidden;
-    color: white;
-    background-color: rgb(156, 156, 192);
-    padding: 10px;  
+    color: rgb(156, 156, 192);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;  
 
     
 }
-.title{
-    font-weight: bolder;
-    font-size: 30px;
+
+#title{
     display: inline-block;
-   
+    text-decoration: none;
+    color: rgb(156, 156, 192);
+
 }
+
 .menu{
     display: inline-block;
     float: right;
 }
 
-li{
+.secoes{
     display: inline;
 }
 
-li a{
-    color: white;
+.secoes a{
+    color: rgb(156, 156, 192);
     font-weight: bolder;
-    list-style-type: none;
     font-size: 30px;
     padding: 50px;
     text-decoration: none;
@@ -42,42 +48,114 @@ li a{
     
 }
 
-li a:hover{
-    background-color: white;
-    color: rgb(156, 156, 192);
+.secoes a:hover{
+    font-size: 32px;
+    background-color: rgb(156, 156, 192);
+    color: whitesmoke;
     
 }
 
-.container{
+.container1{
     position: relative;
+    margin-top: 0px;
     height: 500px;
     width: 100%;
     background-image: url(./image/uliana-kopanytsia-HjZwhXuRf3Q-unsplash.jpg);
     background-position: center;
     background-size: cover;
-
-  
-  
+     
 }
-.text-front{
+.container2{
+    position: relative;
+    margin-top: 0px;
+    height: 500px;
+    width: 100%;
+    background-image: url(./image/uliana-kopanytsia-slCC8-LEJ_E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container1:hover, .container2:hover{
+    background-size: 125%;
+}
+
+.text-front, .text-front2{
     position: absolute;
-    /* position: relative;
-    margin: auto; */
     top: 50%;
     left: 50%;
-    font-size: 200px;
+    font-size: 100px;
     font-weight: bolder;
     transform: translate( -50%, -50%);
-    
-    
-
 }
 
-.text-front a{  
+.text-front a, .text-front2 a{  
     text-decoration: none;
     color:rgb(156, 156, 192) ;
 
 }
+
+#end{
+
+    border: solid;
+    display: inline-block;
+    width: calc(100% - 6px);
+    height: 15rem;
+    background-color: whitesmoke;
+   
+    
+}
+
+#box-soci{
+    position: absolute;
+    margin-left: 10%;
+    ;
+    width: 200px;
+    height: 15rem;
+    line-height: 2;
+    
+}
+
+.socimed{
+    display: inline-block;
+    
+    padding-right: 12px;
+}
+
+.socimed img{
+    width: 25px;
+    height: 25px;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#box-sob{
+    
+    margin-left: 40%;
+    width: 200px;
+    height: 15rem;
+    line-height: 2;
+}
+
+#box-sob a{
+    color: black;
+    text-decoration: none;
+}
+
+#box-sob a:hover{
+    color: black;
+    font-size: calc(100% + 5%);
+}
+
+
+
+
 
 
 

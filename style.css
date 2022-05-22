@@ -56,8 +56,16 @@ header{
 }
 
 .container1{
+    display: grid;
+    grid-template: auto auto/ auto;
+
+}
+.box1{
+    border: solid;   
+    border-width: 1px;
+    border-color: rgb(156, 156, 192);
     position: relative;
-    margin-top: 0px;
+    margin-bottom: 100px;
     height: 500px;
     width: 100%;
     background-image: url(./image/uliana-kopanytsia-HjZwhXuRf3Q-unsplash.jpg);
@@ -65,18 +73,22 @@ header{
     background-size: cover;
      
 }
-.container2{
+.box2{
+    border: solid;   
+    border-width: 1px;
+    border-color: rgb(156, 156, 192);
     position: relative;
-    margin-top: 0px;
+    margin-bottom: 100px;
     height: 500px;
     width: 100%;
     background-image: url(./image/uliana-kopanytsia-slCC8-LEJ_E-unsplash.jpg);
     background-position: center;
     background-size: cover;
+    
 
 }
 
-.container1:hover, .container2:hover{
+.box1:hover, .box2:hover{
     background-size: 125%;
 }
 
@@ -96,29 +108,24 @@ header{
 }
 
 #end{
-
-    border: solid;
-    display: inline-block;
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr;
+    justify-content: flex-start ;
     width: calc(100% - 6px);
     height: 15rem;
     background-color: whitesmoke;
-   
+    
     
 }
 
-#box-soci{
-    position: absolute;
+#box-soci{ 
     margin-left: 10%;
-    ;
-    width: 200px;
     height: 15rem;
     line-height: 2;
     
 }
 
 .socimed{
-    display: inline-block;
-    
     padding-right: 12px;
 }
 
@@ -136,9 +143,7 @@ button:hover{
 }
 
 #box-sob{
-    
     margin-left: 40%;
-    width: 200px;
     height: 15rem;
     line-height: 2;
 }
@@ -151,6 +156,109 @@ button:hover{
 #box-sob a:hover{
     color: black;
     font-size: calc(100% + 5%);
+}
+
+.box-sus{
+    margin-left: 40%;
+    height: 15rem;
+    line-height: 2;
+}
+
+.box-sus a{
+    color: black;
+    text-decoration: none;
+}
+
+.box-sus a:hover{
+    color: black;
+    font-size: calc(100% + 5%);  
+}
+
+p{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+.container3{
+    display: grid;
+    grid-template: auto/ auto auto auto;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    
+}
+
+.nov{
+    height: 100%;
+    width: 400px; 
+    border: solid;   
+    border-width: 1px;
+    border-color: rgb(156, 156, 192);
+}
+
+.n1{
+    
+    background-image: url(./image/max-anderson-8MmuV1Pnqh8-unsplash.jpg);
+    background-size: cover;
+}
+
+.n2{
+    ;
+    background-image: url(./image/max-libertine-Yz01FTxAIA8-unsplash.jpg);
+    background-size: cover;
+}
+
+.n3{
+    
+    background-image: url(./image/timofey-urov-WU_y9Iz5x4o-unsplash.jpg);
+    background-size: cover;
+}
+
+.novidades{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 24%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(156, 156, 192);
+}
+
+.adici{
+    display: grid;
+    grid-template: auto/ auto auto auto;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.add{
+    
+    width: 100%;
+    height: 200px;
+}
+
+.ad1{
+    background-image: url(./image/streamline-icon-shipping-transfer-truck_48x48.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+    
+}
+
+.ad2{
+    background-image: url(./image/streamline-icon-money-atm-card-1_48x48.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+}
+
+.ad3{
+    background-image: url(./image/streamline-icon-shield-check_48x48.svg);
+    background-repeat: no-repeat;
+    background-position: 40px 40px;
+    
 }
 
 

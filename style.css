@@ -71,8 +71,9 @@ header{
     background-image: url(./image/uliana-kopanytsia-HjZwhXuRf3Q-unsplash.jpg);
     background-position: center;
     background-size: cover;
-     
+    background-attachment: fixed;  
 }
+
 .box2{
     border: solid;   
     border-width: 1px;
@@ -84,8 +85,7 @@ header{
     background-image: url(./image/uliana-kopanytsia-slCC8-LEJ_E-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    
-
+    background-attachment: fixed;
 }
 
 .box1:hover, .box2:hover{
@@ -207,7 +207,7 @@ p{
 }
 
 .n2{
-    ;
+    
     background-image: url(./image/max-libertine-Yz01FTxAIA8-unsplash.jpg);
     background-size: cover;
 }
